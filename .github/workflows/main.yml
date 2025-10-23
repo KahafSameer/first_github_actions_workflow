@@ -1,0 +1,13 @@
+name: Kahaf Sameer
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+    demo:
+      runs-on: ubantu-latest
+
+      steps:
+        - name: step_name_sameer
+          run: echo "Asslam o Alaikum"
